@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.omerrom.moodj">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".MainActivity" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:label="@string/app_name" android:name=".openingGif"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/app_name" android:name=".playerMood"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name" android:name=".frustrated"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name" android:name=".unmotivated"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name" android:name=".chilled"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity android:label="@string/app_name" android:name=".pickColor1"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/app_name" android:name=".pickColor2"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name" android:name=".pickColor3"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name" android:name=".pickColor4"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name" android:name=".pickColor5"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/app_name" android:name=".pickColorPre"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name" android:name=".DrawingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/app_name" android:name=".playerGallery"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/app_name" android:name=".pickColor"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/app_name" android:name=".DrawingActivityPre"
+            android:screenOrientation="portrait" android:launchMode="singleTask">
+        </activity>
+
+
+    </application>
+
+</manifest>

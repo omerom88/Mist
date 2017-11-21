@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:signature="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout3"
+    tools:context=".MainActivity"
+    android:id="@+id/layoutColorPick">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/signature_pad_container">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gifView"/>
+
+        <com.github.gcacace.signaturepad.views.SignaturePad
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/signature_pad_pickColor" />
+
+        <Button
+            android:id="@+id/frusPenBut"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/round_button"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/unPenBut"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/round_button"
+            android:layout_marginTop="84dp" />
+
+        <Button
+            android:id="@+id/chillPenBut"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="34dp"
+            android:background="@drawable/round_button"
+            android:layout_marginTop="120dp" />
+
+        <Button
+            android:id="@+id/mute"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/round_button"
+            android:layout_marginTop="566dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+<!--<Button-->
+<!--android:layout_width="30dp"-->
+<!--android:layout_height="80dp"-->
+<!--android:id="@+id/greenPen"-->
+<!--android:layout_marginLeft="110dp"-->
+<!--android:background="#00ffffff"-->
+    <!--/>-->
+
+<!--<Button-->
+<!--android:layout_width="30dp"-->
+<!--android:layout_height="80dp"-->
+<!--android:id="@+id/bluePen"-->
+<!--android:background="#00ffffff"-->
+<!--android:layout_marginLeft="166dp" />-->
+
+<!--<Button-->
+<!--android:layout_width="30dp"-->
+<!--android:layout_height="80dp"-->
+<!--android:id="@+id/redPen"-->
+<!--android:background="#00ffffff"-->
+<!--android:layout_marginLeft="224dp" />-->
+

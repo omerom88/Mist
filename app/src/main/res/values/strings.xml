@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mist</string>
+    <string name="clear_pad">Clear Pad</string>
+    <string name="done_drawing">Done</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/themeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/layout28">
+
+    <RelativeLayout
+        android:id="@+id/clearDoneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.github.gcacace.signaturepad.views.SignaturePad
+            android:id="@+id/playerClear"
+            android:layout_width="38dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:background="#00ffffff"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="14dp" />
+
+        <com.github.gcacace.signaturepad.views.SignaturePad
+            android:id="@+id/playerSave"
+            android:layout_width="38dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:background="#00ffffff"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="12dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:id="@+id/change"
+            android:background="#00ffffff"
+            android:layout_marginLeft="310dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="202dp"
+        android:layout_height="372dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/galleryPics"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="474dp"
+        android:layout_above="@+id/buttons_container"
+        android:id="@+id/playerPadLayout"
+        android:layout_marginTop="70dp">
+
+        <com.github.gcacace.signaturepad.views.SignaturePad
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/signature_pad_player" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/allButLayout"
+        android:layout_marginTop="544dp">
+        <Button
+            android:id="@+id/trackBefore"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:background="#00ffffff"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/pauseButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/round_button"
+            android:layout_marginLeft="118dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/round_button"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/round_button"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/trackAfter"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="274dp"
+            android:background="#00ffffff"
+            android:layout_marginTop="19dp" />
+
+    </RelativeLayout>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewPerfect" />
+
+
+</FrameLayout>
